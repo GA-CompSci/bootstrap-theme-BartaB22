@@ -1,6 +1,13 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/780000-b6111c-255a27-f3873f-ffffff
+https://coolors.co/780000-b6111c-255a27-f3873f-ffffff
+780000 - dark red
+C1121F - red
+255A27 - hunter green
+F3873F - pumkin
+FFFFFF - white
+2f2e2e - dark grey
 
 *****/
 
@@ -10,8 +17,77 @@ COLOR CHEAT SHEET
 /********************/
 body, p {
 
+    font-family: "Bebas Neue", sans-serif;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Bungee Tint", sans-serif;
+}
 
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead {
+    background: url("../img/fast-food-fastfoodcity.com-052-968038977.jpg");
+    background-position: center;
+    background-size: cover;
+}
+header.masthead h1 {
+    color: #000000;
+    font-size: 85px;
+    text-shadow: 2px 2px 40px rgb(255, 255, 255);
+}
+header.masthead p {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: large;
+}
+
+/********************/
+/******* COLORS ******/
+/********************/
+.btn-primary {
+    background-color: #9c1c1c;
+    border: 2px solid #810d0d;
+    color: rgb(229, 227, 227);
+}
+.btn-primary:hover {
+    background: rgb(187, 26, 26);
+    border: 2px solid #7b0b0b;
+    font-weight:800;
+}
+hr.divider {
+    background-color: #b01616;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #2f2e2e !important;
+}
+.btn-light {
+    --bs-btn-color: #962222;
+    --bs-btn-border-color: 2px solid #810d0d;
+}
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #b01616 !important;
+}
+
+
+
+/********************/
+/******* NAV ******/
+/********************/
+
+#mainNav.navbar-shrink {
+    background-color: #9c1c1c;
+}
+
+
+/********************/
+/******* TOP 6 IMAGES ******/
+/********************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #7b0b0be7;
 }
