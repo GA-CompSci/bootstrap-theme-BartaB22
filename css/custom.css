@@ -29,7 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 /******* HERO ******/
 /********************/
 header.masthead {
-    background: url("../img/fast-food-fastfoodcity.com-052-968038977.jpg");
+    background: url("../img/hero.webp");
+    background-position: center;
+    background-size: cover;
+
+}
+header.masthead {
+    background: url("../img/hero.webp");
     background-position: center;
     background-size: cover;
 }
