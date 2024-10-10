@@ -9,16 +9,12 @@ F3873F - pumkin
 FFFFFF - white
 2f2e2e - dark grey
 
-*****/
-
 
 /********************/
 /******* FONTS ******/
 /********************/
 body, p {
-
     font-family: "Bebas Neue", sans-serif;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,17 +28,15 @@ header.masthead {
     background: url("../img/hero.webp");
     background-position: center;
     background-size: cover;
-
-}
-header.masthead {
-    background: url("../img/hero.webp");
-    background-position: center;
-    background-size: cover;
 }
 header.masthead h1 {
     color: #000000;
-    font-size: 85px;
-    text-shadow: 2px 2px 40px rgb(255, 255, 255);
+    font-size: 100px;
+    text-shadow: 
+        -2px -2px 0 rgb(255, 255, 255),   /* Top-left shadow */
+        2px -2px 0 rgb(255, 255, 255),    /* Top-right shadow */
+        -2px 2px 0 rgb(255, 255, 255),    /* Bottom-left shadow */
+        2px 2px 0 rgb(255, 255, 255);     /* Bottom-right shadow */
 }
 header.masthead p {
     color: #ffffff;
